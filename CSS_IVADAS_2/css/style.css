@@ -1,0 +1,79 @@
+body {
+
+    background-color: skyblue ;
+    padding-top: 5%;
+    font-family: 'Playfair Display', serif;
+    color: rgb(80, 80, 80);
+}
+
+h3 {
+
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+
+}
+
+.remelis-korteles {
+
+    width: 300px;
+    margin: 0% auto;
+    border: rgb(78, 154, 186) solid 6px;
+    background-color: aliceblue;
+    opacity: 90%;
+}
+
+.centras {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.remelis-teksto {
+
+    border: solid 1px grey;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-top: 20px;
+    padding: 3%;
+}
+
+.fotoremelis {
+
+    width: 86%;
+    background-color: skyblue;
+    margin: 0% auto;
+}
+
+.fotoremelis img {
+ padding-top: 20px;
+}
+
+.pirma {
+
+    font-style: italic;
+    text-align: justify;
+
+}
+
+.paryskinta {
+
+    font-weight: bold;
+
+}
+
+.betarpo {
+
+    line-height: normal;
+}
+
+.antra {
+
+    font-size: 14px;
+    text-align: justify;
+}
+
