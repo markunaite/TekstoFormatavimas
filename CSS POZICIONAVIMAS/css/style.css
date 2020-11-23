@@ -1,0 +1,172 @@
+body {
+    background-color: rgb(176, 231, 244);
+    margin: auto 0;
+    padding: 3%;
+}
+
+h2 {
+    font-family: 'Alfa Slab One', cursive;
+    text-align: center;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.burger {
+    position: relative;
+    top: 50%;
+    left: 35%;
+    padding: 1%;
+    display: block;
+    width: 70%;
+}
+
+.bun-1 {
+    width: 40%;
+    height: 120px;
+    background: rgb(230, 170, 66);
+    border-bottom: rgb(210, 155, 60) solid 15px;
+    border-radius: 30px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    padding-bottom: 1%;
+    margin-bottom: 0.5%;
+}
+
+.sesame {
+    position: absolute;
+    width: 3%;
+    height: 10px;
+    background: rgb(232, 209, 160);
+    border-radius: 20px;
+    top: 7%;
+    right: 66%;
+}
+
+.sesame-2 {
+    position: absolute;
+    width: 3%;
+    height: 10px;
+    background: rgb(232, 209, 160);
+    border-radius: 20px;
+    top: 7%;
+    right: 77%;
+}
+
+.sesame-3 {
+    position: absolute;
+    width: 3%;
+    height: 10px;
+    background: rgb(232, 209, 160);
+    border-radius: 20px;
+    top: 7%;
+    right: 88%;
+}
+
+.sesame-4 {
+    position: absolute;
+    width: 3%;
+    height: 10px;
+    background: rgb(232, 209, 160);
+    border-radius: 20px;
+    bottom: 7%;
+    right: 73%;
+    top: 17%;
+}
+
+.sesame-5 {
+    position: absolute;
+    width: 3%;
+    height: 10px;
+    background: rgb(232, 209, 160);
+    border-radius: 20px;
+    bottom: 7%;
+    right: 83%;
+    top: 17%
+}
+
+.salad-1 {
+    width: 45%;
+    height: 20px;
+    background: rgb(109, 184, 109);
+    border-bottom: rgb(81, 130, 81) solid 2px;
+    margin-left: -2%;
+    border-top-left-radius: 15px ;
+    border-top-right-radius: 15px;
+}
+
+.mid-holder {
+    display: flex;
+    
+}
+
+.tomato {
+    width: 20%;
+    height: 40px;
+    background: rgb(199, 52, 26);
+    border-bottom: solid rgb(118, 29, 29) 5px;
+    border-radius: 15px;
+    margin: 0.3%;
+}
+
+.meat {
+    width: 43%;
+    height: 70px;
+    background: rgb(103, 67, 44);
+    border-bottom: rgb(58, 44, 33) solid 2px;
+    border-radius: 30px;
+margin: 0.2%;
+    margin-left: -1%;
+    
+}
+
+.cheese {
+    position: relative;
+    width: 45%;
+    height: 30px;
+    background: rgb(245, 240, 72);
+    border-top: rgb(211, 203, 105) solid 2px;
+    border-radius: 10px;
+    margin-left: -2%;
+}
+
+.salad {
+    width: 45%;
+    height: 20px;
+    background:rgb(109, 184, 109);
+    border-top: rgb(81, 130, 81) solid 2px;
+    margin-left: -2%;
+    border-bottom-left-radius: 15px ;
+    border-bottom-right-radius: 15px;
+}
+
+.bun {
+    width: 40%;
+    height: 120px;
+    background: rgb(230, 170, 66);
+    border-top: rgb(210, 155, 60) solid 15px;
+    border-radius: 30px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    margin-top: 0.5%;
+    padding: 0.5%;
+}
+
+.price {
+    font-family:'Alfa Slab One', cursive; 
+    color: rgb(176, 231, 244);
+    font-size: 35px;
+    text-align: center;
+    width: 15%;
+    height: 45px;
+    background: tomato;
+    border-radius: 3px;
+    transform: rotate(-25deg);
+    position: absolute;
+    right: 55%;
+    bottom: 4%;
+}
