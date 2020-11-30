@@ -1,0 +1,112 @@
+body {
+    background-image: url(../images/bg1.png);
+    background-repeat: repeat;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 800px;
+    height: 1050px;
+    background: white;
+    background-image: url(../images/bg2.png),
+    url(../images/bg3.png);
+    background-position: top left, bottom;;
+    background-repeat: no-repeat, no-repeat;
+}
+
+.logo {
+    position: absolute;
+    top: 80px;
+    left: 500px;
+}
+
+header ul {
+    position: absolute;
+    right: 450px;
+    top: 115px;
+    list-style-type: none;
+    text-align: right;
+}
+
+li {
+    position: relative;
+    padding: 2px 0;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(162, 162, 162);
+}
+
+li img {
+    height: 25px;
+    position: relative; 
+    top: 5px;
+    padding-left: 10px;
+}
+
+h1 {
+    text-transform: uppercase;
+    position: absolute;
+    top: 400px;
+    left: 450px;
+    letter-spacing: 2px;
+
+}
+
+span {
+    color: skyblue;
+}
+
+.line {
+    width: 270px;
+    height: 5px;
+    background-color: skyblue;
+    position: absolute;
+    top: 470px;
+    left: 450px;
+}
+
+.short {
+    color:rgb(154, 154, 154);
+    position: absolute;
+    top: 470px;
+    left: 450px;
+}
+
+.paragraph {
+    color:rgb(154, 154, 154);
+    position: absolute;
+    top: 530px;
+    left: 450px;
+    right: 450px;
+    text-align: justify;
+    font-size: 15px;
+}
+
+.line-2 {
+    width: 270px;
+    height: 5px;
+    background-color: skyblue;
+    position: absolute;
+    top: 680px;
+    left: 450px;
+}
+
+.paragraph-2 {
+    color:rgb(154, 154, 154);
+    position: absolute;
+    top: 700px;
+    left: 450px;
+    right: 450px;
+    text-align: justify;
+    font-size: 15px;
+}
+
+.signature {
+    font-family: 'Great Vibes', cursive;
+    color:rgb(154, 154, 154);
+    font-size: 40px;
+    position: absolute;
+    top: 830px;
+    left: 450px;
+}
