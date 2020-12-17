@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(230, 196, 196);
+}
+
+h1 {
+color: white;
+text-align: center;
+}
+
+div {
+    
+    width: calc((100% / 4) - 14px);
+    display: inline-block;
+    text-align: justify;
+    margin: 5px;
+}
+
+@media only screen and (max-width: 1024px) {
+
+    div {
+        
+    width: calc((100% / 3) - 14px);
+    background-color: rgb(152, 153, 181);
+    }
+}
+
+@media only screen and (max-width: 720px) {
+
+    div {
+        background-color: rgb(196, 203, 165);
+        width: calc((100% / 2) - 14px);
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+    div {
+        background-color: rgb(250, 135, 135);
+        width: 100%;
+    }
+}
