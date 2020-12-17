@@ -1,0 +1,63 @@
+body {
+    background-color:hsl(0, 0%, 96%);
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: hsl(229, 6%, 66%);
+}
+
+h1, h2, h4 {
+    color: hsl(234, 12%, 34%);
+}
+
+.slim {
+    font-weight: 200;
+    margin-bottom: -20px;
+}
+
+p {
+    color: hsl(229, 6%, 66%);
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.column {
+    display: flex;
+    flex-direction: column; 
+ }
+
+.image {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.box {
+    width: 350px;
+    background-color: white;
+    border-radius: 7px;
+    padding: 10px 20px 20px 30px;
+    box-sizing: border-box;
+    text-align: left;
+    margin: 15px;
+}
+
+.teamBuilder {
+    border-top: 3px solid hsl(0, 78%, 62%);
+}
+
+.supervisor {
+    border-top: 3px solid hsl(180, 62%, 55%);
+}
+
+.calculator {
+    border-top: 3px solid hsl(212, 86%, 64%);
+}
+
+.karma {
+    border-top: 3px solid hsl(34, 97%, 64%);
+}
