@@ -1,0 +1,95 @@
+body {
+    background-color: hsl(218, 31%, 86%);
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+}
+
+h3 {
+    color: hsl(179, 62%, 43%);
+}
+
+h4 {
+    color: hsl(71, 73%, 54%);
+}
+
+p {
+    color: hsl(218, 22%, 67%);
+}
+
+.firstBlock {
+    width: 700px;
+    height: 160px;
+    background-color: rgb(255, 255, 255);
+    padding: 3%;
+    border-radius: 15px 15px 0 0;
+}
+.white {
+    color: white;
+    margin-top: -10px;
+    margin-bottom: -5px;
+}
+
+.big {
+    color: white;
+    font-size: 30px;
+    padding-right: 4%;
+}
+
+.light {
+    color: rgb(230, 230, 230);
+    margin-top: -10px;
+}
+
+.light-margin {
+    color: rgb(230, 230, 230);
+    margin-bottom: -10px;
+}
+
+.line {
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    width: 250px;
+    height: 40px;
+    background-color: hsl(71, 73%, 54%);
+    border-radius: 15px;
+    margin-top: 35px;
+}
+
+h5{
+    color: white;
+}
+
+.secondBlock {
+    width: 300px;
+    height: 200px;
+    background-color:hsl(179, 62%, 43%);
+    border-bottom-left-radius: 15px;
+    padding: 3%;
+}
+
+.thirdBlock {
+    width: 300px;
+    height: 200px;
+    background-color: rgb(14, 187, 187);
+    border-bottom-right-radius: 15px;
+    padding: 3%;
+}
+
+.bottomBoxes {
+    display: flex;
+    align-items: flex-start;
+}
+
+.container {
+    width: 1670px;
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+}
+
