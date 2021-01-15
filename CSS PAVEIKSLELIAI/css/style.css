@@ -16,15 +16,15 @@ body {
 }
 
 .logo {
-    position: absolute;
+    position: relative;
     top: 80px;
-    left: 500px;
+    left: 100px;
 }
 
 header ul {
-    position: absolute;
-    right: 450px;
-    top: 115px;
+    position: relative;
+    top: -80px;
+    right: 20px;
     list-style-type: none;
     text-align: right;
 }
@@ -46,9 +46,7 @@ li img {
 
 h1 {
     text-transform: uppercase;
-    position: absolute;
-    top: 400px;
-    left: 450px;
+    margin: 15px 0px 0px 30px;
     letter-spacing: 2px;
 
 }
@@ -61,24 +59,17 @@ span {
     width: 270px;
     height: 5px;
     background-color: skyblue;
-    position: absolute;
-    top: 470px;
-    left: 450px;
+    margin: 15px 0px 0px 30px;
 }
 
 .short {
     color:rgb(154, 154, 154);
-    position: absolute;
-    top: 470px;
-    left: 450px;
+    margin: 15px 0px 0px 30px;
 }
 
 .paragraph {
     color:rgb(154, 154, 154);
-    position: absolute;
-    top: 530px;
-    left: 450px;
-    right: 450px;
+    margin: 15px 20px 0px 30px;
     text-align: justify;
     font-size: 15px;
 }
@@ -87,17 +78,12 @@ span {
     width: 270px;
     height: 5px;
     background-color: skyblue;
-    position: absolute;
-    top: 680px;
-    left: 450px;
+   margin: 15px 0px 0px 30px;
 }
 
 .paragraph-2 {
     color:rgb(154, 154, 154);
-    position: absolute;
-    top: 700px;
-    left: 450px;
-    right: 450px;
+    margin: 15px 20px 0px 30px;
     text-align: justify;
     font-size: 15px;
 }
@@ -106,7 +92,5 @@ span {
     font-family: 'Great Vibes', cursive;
     color:rgb(154, 154, 154);
     font-size: 40px;
-    position: absolute;
-    top: 830px;
-    left: 450px;
+    margin: 40px 0 0 30px;
 }
