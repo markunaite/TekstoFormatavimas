@@ -1,0 +1,148 @@
+body {
+    background-color: rgb(255, 232, 218);
+    font-family: 'Inconsolata', monospace;
+}
+
+h1, h2 {
+    color: rgb(213, 203, 188);
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+h3 {
+  color: rgb(213, 203, 188);
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+header .navigation {
+    list-style-type: none;
+    margin-bottom: 4%;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(158, 192, 198);
+  }
+  
+  header .bar, a {
+    float: left;
+  }
+  
+  header .bar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  header .bar a:hover {
+    background-color: rgb(98, 138, 160);
+  }
+
+  header .bar a:visited {
+      color: rgb(67, 85, 128);
+  }
+
+  p {
+    color: rgb(110, 112, 113);
+    width: 80%;
+    margin: 0 auto;
+    padding: 3%;
+    text-align: justify;
+  }
+
+  .list {
+    color:  rgb(110, 112, 113);
+    width: 80%;
+    margin: 0 auto;
+    padding: 2%;
+    text-align: justify;
+    list-style-type: circle;
+  }
+
+  p::selection {
+    background: rgb(200, 227, 223);
+  }
+
+  li::selection {
+    background: rgb(200, 227, 223);
+  }
+
+  p::first-letter {
+    font-size: 30px;
+  }
+
+  p::first-line {
+    color: rosybrown;
+  }
+
+  li:nth-child(even) {
+    color:rosybrown;
+  }
+
+  li:first-child {
+    font-size: 18px;
+    color: rgb(107, 86, 120);
+    text-transform: uppercase ;
+  }
+
+  li:last-child {
+    text-transform: uppercase ;
+  }
+
+  .second::before {
+    content: url(../images/icon.png);
+  }
+
+  .second::after {
+    content: url(../images/icon2.png);
+  }
+
+  .first::before {
+    content: "";
+    background: rgb(154, 123, 123);
+    width: 40px;
+    height: 10px;
+    display: inline-block;
+  }
+
+  .first::after {
+    content: "";
+    background: rgb(133, 117, 97);
+    width: 40px;
+    height: 10px;
+    display: inline-block;
+  }
+  .square {
+    width: 200px;
+    height: 200px;
+    background: rgb(196, 186, 145);
+  }
+
+  .square:hover {
+    width: 200px;
+    background: rgb(128, 181, 181);
+  }
+
+  .transition {
+    width: 200px;
+    height: 200px;
+    background: rgb(220, 181, 139);
+    transition: width 1s ease-out 1s;
+  }
+
+  .transition:hover {
+    width: 100%;
+  }
+
+  .position {
+    width: 200px;
+    height: 200px;
+    background: rgb(232, 165, 137);
+  }
+
+  .position:hover {
+    width: 200px;
+    position: relative;
+    left: 200px;
+  }
