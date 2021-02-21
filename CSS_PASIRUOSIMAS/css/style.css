@@ -1,0 +1,205 @@
+body {
+    background-color: rgb(247, 247, 247);
+    font-family: 'Mulish', sans-serif;
+    padding: 2%;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+p {
+    color:rgb(101, 96, 96);
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+  }
+
+  li {
+  
+    display: inline-block;
+  }
+
+  li a {
+   
+    color: #18272f;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: rgb(101, 96, 96);
+  }
+/* kartojasi */
+  /* a {
+    text-decoration: none;
+  } */
+
+/* nav labai lengva išlygiuoti su flex: */
+  nav {
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .container, nav {
+    /* čia flexo dar nereikia :) */
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    /* konteineris 70% ekrano, sulygiuotas per vidur5. papildomai galima pridėti max width, kad per daug nesiplėstų */
+    width: 70%;
+    margin: 0 auto;
+}
+
+  .main, .main2, .main3 {
+    /* aukščių (ypač px) visada vengti, dydžio nebereikia nustatinėti nes nustatytas bendram konteineriui */
+      /* width: 900px;
+      height: 350px; */
+      padding: 5%;
+      background-color: white;
+      border-radius: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+  }
+
+/* paveikslėlių ir teksto blokų dydžiai (galima dar pasikoreguoti pagal save) */
+.firstPic, .secondPic, .thirdPic, .text {
+  width: 48%;
+}
+
+  .button {
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #458ff6;
+    color: white;
+    /* naudojant button nebereikia */
+    /* text-align:center;
+    vertical-align: middle; */
+    line-height: 35px;
+    cursor:pointer;
+    border: none;
+  }
+
+  .firstPic {
+      /* position: relative;
+      top: -200px;
+      right: -600px;
+      width: 300px; */
+  }
+
+  .textService {
+    text-align: center;
+    padding: 2%;
+  }
+
+  .components {
+    display: flex;
+    /* numatytoji reikšmė, rašyti nereikia */
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    justify-content: center;
+    /* nebereikia, tokiam layoute flex daug paprasčiau naudoti*/
+    /* max-width: 1200px; */
+    /* display: grid;
+    grid-gap: 10px;
+    grid-template-rows: 2;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-start: 1;
+    grid-column-end: 3; */
+
+  }
+
+  .services-inner {
+    /* width: 300px;
+    height: 220px;*/
+    /* neprsisirišam prie fiksuotų dydžių: */
+    width: calc((100% / 3) - 10px);
+    background-color: white;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 2%;
+    box-sizing: border-box;
+}
+
+/* mygtuko sulygiavimas per vidurį, tarpai */
+.services .buttonOutline {
+  display: block;
+  margin: 5% auto;
+}
+
+
+.buttonOutline {
+  width: 150px;
+  height: 40px;
+  border: 2px solid #458ff6;
+  border-radius: 20px;
+  background-color: transparent;
+  color: #458ff6;
+  cursor:pointer;
+  /* nebereikia */
+  /* text-align:center;
+  vertical-align: middle; */
+  /* line-height: 35px; */
+}
+
+.main2 {
+  /* width: 900px;
+  height: 250px;
+  padding: 5%;
+  background-color: white;
+  border-radius: 10px;
+  text-align: right; */
+}
+
+/* .secondPic {
+    position: relative;
+      top: -220px;
+      left: -820px;
+      width: 400px;
+} */
+
+.text2 {
+  /* width: 450px;
+  float: right; */
+}
+
+.text3, .text1 {
+  /* width: 450px; */
+}
+
+.main3 {
+  /* width: 900px;
+  height: 250px;
+  padding: 5%;
+  background-color: white;
+  border-radius: 10px; */
+}
+
+.thirdPic {
+  /* position: relative;
+      top: -220px;
+      right: -600px;
+      width: 320px; */
+}
