@@ -1,0 +1,157 @@
+body {
+    background-color: #f3f3f3;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+p {
+    color: #4B4F51;
+}
+
+h1, h2, h3, h4 {
+    text-transform: capitalize;
+}
+
+h1 {
+    color:#035755;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+h2 {
+    color:#035755;
+    font-size: 27px;
+    font-weight: 700;
+}
+
+h3 {
+    color:#fb4c47;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: -20px;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+  
+    display: inline-block;
+}
+
+li a {
+    color: #035755;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fb4c47;
+}
+
+button:hover {
+    color: #ff6c67;
+}
+
+nav {
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+main {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.first-block, .second-block {
+    padding: 5%;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+.first-picture, .second-picture {
+    width: 50%;
+}
+
+.third-picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+button {
+    width: 180px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #fb4c47;
+    border: 1px solid #fb4c47;
+    color: white;
+    cursor:pointer;
+}
+
+.components {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.mini-blocks {
+    width: calc((100% / 3) - 15px);
+    background-color: white;
+    border-radius: 15px;
+    border-bottom: 4px solid #fb4c47;
+    margin: 5px;
+    padding: 2%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.align {
+    text-align: center;
+    padding: 1%;
+}
+
+.icon {
+    width: 80%;
+}
+
+@media only screen and (max-width: 1000px) {
+
+    main {
+        width: 90%;
+    }
+    .first-block, .second-block {
+        padding: 2%;
+        background-color: white;
+        border-radius: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 30px;
+    }
+
+    .first-picture, .second-picture {
+        width: 60%;
+    }
+}
