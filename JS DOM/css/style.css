@@ -1,0 +1,88 @@
+body {
+    background-color: rgb(211, 232, 240);
+    width: 90%;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin-bottom: -5px;
+}
+
+p {
+    color: rgb(191, 191, 191);
+}
+
+main {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+.card {
+    width: calc((100% / 4) - 20px);
+    background-color: rgb(246, 254, 255);
+    border-radius: 2%;
+    padding: 2%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+img {
+    width: 120px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+i {
+    color: rgb(196, 196, 196);
+    font-size: 18px;
+}
+
+.icon {
+    color: rgb(196, 196, 196);
+    font-size: 18px;
+    padding: 2%;
+    border: solid 1px rgb(196, 196, 196);
+    border-radius: 50%;
+}
+
+@media only screen and (max-width: 1200px) {
+
+   main {
+       justify-content: flex-start;
+   }
+
+    .card {
+        width:calc((100% / 3) - 20px);
+
+    }
+}
+
+@media only screen and (max-width: 720px) {
+
+    .card {
+        width:calc((100% / 2) - 20px);
+
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+    .card  {
+        width:calc(100% - 20px);
+    }
+}
